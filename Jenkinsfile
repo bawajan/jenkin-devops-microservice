@@ -1,6 +1,6 @@
 //DECLARATIVE
 pipeline {
-	agent any  ## Agent here is like a node where the Build runs -Same "agent" will be referred in Azure PipeLines as well
+	agent any
 	stages {
 		stage ('Build') {
 			steps {
