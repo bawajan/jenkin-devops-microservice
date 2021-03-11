@@ -1,11 +1,6 @@
 //DECLARATIVE
 pipeline {
-<<<<<<< HEAD
-	//agent any  // Agent here is like a node where the Build runs -Same "agent" will be referred in Azure PipeLines as well
 	agent { docker { image 'maven:3.6.3'} }
-=======
-	agent any
->>>>>>> d1915b7f671928eb12caeb94d928d4bc97fba1af
 	stages {
 		stage ('Build') {
 			steps {
